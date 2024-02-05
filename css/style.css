@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -11,12 +11,11 @@ body {
 
 #logo {
     width: 18%;
-    padding-left: 1%;
-    padding-top: 5%;
+    padding: 4% 0% 0% 1%;
 }
 
 #container2 {
-    padding-left: 1%;
+    padding: 0% 1% 0% 1%;
 }
 
 h1 {
@@ -60,6 +59,7 @@ table{
 
 thead {
     background-color: deepskyblue;
+    color: white;
 }
 
 .intense {
