@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 0%;
 }
 
-#sub1 {
+#sub1, aside {
     font-weight: 600;
     color: grey;
 }
@@ -38,7 +38,7 @@ h1 {
     font-size: 13px;
 }
 
-main, footer {
+main, footer, aside {
 padding: 1%;}
 
 #section1 {
@@ -82,4 +82,24 @@ thead {
 
 .evidenziato {
     background-color: yellow;
+}
+
+#img1 {
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+#img2 {
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 1%;
+    color: white;
 }
